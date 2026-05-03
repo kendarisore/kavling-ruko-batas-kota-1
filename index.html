@@ -407,5 +407,12 @@ onclick="fbq('track', 'Contact');"
   </svg>
 
 </a>
+   <script>
+document.querySelectorAll('a.cta, a.wa-float').forEach(function(el){
+  el.addEventListener('click', function(){
+    setTimeout(function(){}, 300);
+  });
+});
+</script>
 </body>
 </html>
