@@ -52,16 +52,7 @@ body {
   font-size:18px;
 }
 
-.cta {
-  background:#ffcc00;
-  padding:15px 20px;
-  margin-top:20px;
-  display:inline-block;
-  border-radius:8px;
-  font-weight:bold;
-  text-decoration:none;
-  color:black;
-}
+
 
 .section {
   background:white;
@@ -97,114 +88,26 @@ body {
   border-radius:10px;
 }
 
-.highlight {
-  background:#e6f7ff;
-  padding:15px;
-  border-left:5px solid #0b3c5d;
-  margin-top:10px;
-}
 
-.footer-cta {
-  background:#ff4444;
-  color:white;
-  text-align:center;
-  padding:25px;
-  margin-top:20px;
-  border-radius:10px;
-}
-.cta {
-    display: inline-block;
-    background: #ff7a00; /* orange utama */
-    color: white;
-    padding: 14px 22px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
 
-    /* efek timbul (orange lebih gelap) */
-    box-shadow: 0 6px 0 #cc6200, 0 10px 25px rgba(0,0,0,0.3);
 
-    transition: all 0.2s ease;
-}
 
 /* efek ditekan */
-.cta:active {
-    transform: translateY(3px);
-    box-shadow: 0 3px 0 #cc6200, 0 5px 15px rgba(0,0,0,0.3);
-}
 
 /* efek hover */
-.cta:hover {
-    transform: translateY(-2px);
-}
+
 /* tombol floating WA */
-.wa-float {
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  background:#25D366;
-  color:white;
-  padding:15px 18px;
-  border-radius:50px;
-  text-decoration:none;
-  font-weight:bold;
-  box-shadow:0 4px 10px rgba(0,0,0,0.3);
-}
-.footer-cta {
-    background: linear-gradient(180deg, #ff3d3d, #b80000);
-    padding: 25px;
-    border-radius: 20px;
-    color: white;
-    margin: 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
-}
-.wa-float {
-    position: fixed;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
 
-    width: 42px;
-    height: 42px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: rgba(37, 211, 102, 0.7); /* hijau transparan */
-    border-radius: 50%;
-
-    backdrop-filter: blur(4px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-
-    z-index: 999;
-    transition: all 0.3s ease;
-}
 
 /* hover */
-.wa-float:hover {
-    background: rgba(37, 211, 102, 0.9);
-    transform: translateY(-50%) scale(1.1);
-}
 
 /* klik */
-.wa-float:active {
-    transform: translateY(-48%) scale(0.95);
-}
+
 /* JUDUL */
-.cta-title {
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.4;
-}
+
 
 /* HARGA */
-.cta-price {
-    text-align: center;
-    margin: 15px 0;
-}
+
 
 .old-price {
     text-decoration: line-through;
@@ -212,14 +115,6 @@ body {
     font-size: 20px;
 }
 
-.cta {
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.highlight {
-    margin-top: 10px;
-}
 
 .main-price {
     font-size: 42px;
@@ -235,11 +130,7 @@ body {
 }
 
 /* LIST */
-.cta-list p {
-    margin: 10px 0;
-    font-size: 14px;
-    line-height: 1.5;
-}
+
 .warning-box {
     border: 2px dashed #FFD700;
     padding: 12px;
@@ -247,7 +138,60 @@ body {
     margin-top: 15px;
     background: rgba(0,0,0,0.15);
 }
+.cta {
+  display: inline-block;
+  background: #ff7a00;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 0 #cc6200, 0 10px 25px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+}
 
+.cta:hover {
+  transform: translateY(-2px);
+}
+
+.cta:active {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 #cc6200, 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.wa-float {
+  position: fixed;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 211, 102, 0.9);
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.highlight {
+  background:#e6f7ff;
+  padding:15px;
+  border-left:5px solid #0b3c5d;
+  margin-top:10px;
+  border-radius:8px;
+}
+
+.footer-cta {
+  background: linear-gradient(180deg, #ff3d3d, #b80000);
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  margin: 20px 0;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
 </style>
 </head>
 
